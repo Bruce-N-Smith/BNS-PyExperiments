@@ -1,3 +1,4 @@
+#To Do figure out how to wrap code in Tkinter and how to move the self-contained app to a new environment
 #!/usr/bin/env python
 from __future__ import print_function
 import os
@@ -7,3 +8,4 @@ path = r'.'
 files = os.listdir(path)
 for name in files:
     print(name)
+    
