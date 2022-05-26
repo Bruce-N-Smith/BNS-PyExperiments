@@ -1,0 +1,19 @@
+#get a prebuilt library for time functionality
+import time
+
+#define a new function
+def countdown(t):
+  while t:
+    mins, secs = divmod(t, 60)
+    timer = '{:02d}:{:02d}'.format(mins, secs)
+    print(timer, end="\r")
+    time.sleep(1)
+    t -= 1
+    
+    print('Timer complete')
+    
+#ask user to input a time value in seconds in this new variable
+t = input('Enter the time you want to count in seconds: ')
+
+#run the countdown function created above, as an integer, using the number in the t variable
+countdown(int(t))
