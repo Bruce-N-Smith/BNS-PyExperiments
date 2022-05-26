@@ -11,7 +11,7 @@ def countdown(t):
     time.sleep(1)
     t -= 1
     
-    print('Timer complete')
+    print('Counting down')
     
 #ask user to input a time value in seconds into a variable, it's a bit confusing the tutor named the function and the variable the same way, I'll try to fix that as an upgrade
 t = input('Enter the time you want to count in seconds: ')
