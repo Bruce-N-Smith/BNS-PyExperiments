@@ -5,6 +5,7 @@ import time
 def countdown(t):
   while t:
     mins, secs = divmod(t, 60)
+    #this appears just to be a RegEx formatting line next
     timer = '{:02d}:{:02d}'.format(mins, secs)
     print(timer, end="\r")
     time.sleep(1)
@@ -12,7 +13,7 @@ def countdown(t):
     
     print('Timer complete')
     
-#ask user to input a time value in seconds in this new variable
+#ask user to input a time value in seconds into a variable, it's a bit confusing the tutor named the function and the variable the same way, I'll try to fix that as an upgrade
 t = input('Enter the time you want to count in seconds: ')
 
 #run the countdown function created above, as an integer, using the number in the t variable
