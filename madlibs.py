@@ -3,7 +3,7 @@
 # three ways to approach this
 # print("string" + variable)
 # print("string {}".format(variable)
-# print(f"string {variable}") F-String is nice an clean
+# print(f"string {variable}") F-String is nice and clean
 print("Welcome to the MadLib game!")
 
 # gather up variables in use
@@ -14,6 +14,7 @@ famous_person = input("Famous person: ")
 
 # make a variable that contains a function, string, and another variable
 # note the backslash acts as a line break in Python code, but doesn't show in the program as used by clients
+# note when I run this in Python 3.10.4 it complains about the next line and an unterminated string literal and points to the f character
 madlib = f"Computer programming is so {adj}! It makes me so excited all the time because \ 
 I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
 
