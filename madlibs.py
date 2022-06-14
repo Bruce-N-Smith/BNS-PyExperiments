@@ -8,11 +8,14 @@ print("Welcome to the MadLib game!")
 
 # gather up variables in use
 adj = input("Adjective: ")
-verb1 = 
-verb2 = 
-famous_person = 
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous person: ")
 
 # make a variable that contains a function, string, and another variable
 # note the backslash acts as a line break in Python code, but doesn't show in the program as used by clients
 madlib = f"Computer programming is so {adj}! It makes me so excited all the time because \ 
 I love to {verb1}. Stay hydrated and {verb2} like you are {famous_person}!"
+
+print(madlib)
+#end program
